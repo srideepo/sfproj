@@ -1,0 +1,10 @@
+variables:
+  - group: snowflake
+  - name: pool
+    value: 'Ubuntu'
+  - name: python_version
+    value: '3.8'
+  - name: schemachange_version
+    value: '4.0.0'
+
+trigger: none
